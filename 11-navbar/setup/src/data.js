@@ -3,7 +3,7 @@ import { FaBehance, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 export const links = [
   {
     id: 1,
-    url: '/home',
+    url: '/',
     text: 'home',
   },
   {
@@ -23,8 +23,8 @@ export const links = [
   },
  // {
  //   id: 5,
- //   url: '/profile',
- //   text: 'profile',
+ //   url: '/home',
+//    text: 'home',
  // },
 ]
 

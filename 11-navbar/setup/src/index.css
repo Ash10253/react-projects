@@ -230,3 +230,33 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+
+/*contact form*/
+.contact div {
+  background-color: #ffff;
+  height: auto;
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;  
+  text-align: center;
+  }
+
+  button {
+    background-color: #4CAF50; /* Green */
+    border: 2px black solid;
+    color: white;
+    padding: 15px 32px;
+    align-items: center;
+    margin-left:  46%;
+    margin-top: 30px;
+    font-size: 16px;
+    
+  }
+
+  /*Home Page Banner */
+  img {
+    padding-top: 0%;
+    max-height: auto;
+    max-width: 100%;
+  }

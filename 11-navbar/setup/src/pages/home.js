@@ -1,14 +1,18 @@
-import React from "react";
+import React from 'react';
+import BannerSlider from '../Component/BannerSlider';
+
+const banners = [
+  'Landscape.jpg',
   
-const Home = () => {
-  return (
-    <div>
-      <h1>
-        Welcome to React
-        
-      </h1>
-    </div>
-  );
-};
   
-export default Home;
+];
+
+class Welcome extends React.Component {
+  render() {
+    return (
+      <BannerSlider banners={banners} interval={5000} />
+    );
+  }
+}
+
+export default Welcome;
